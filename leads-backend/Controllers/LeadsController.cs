@@ -30,7 +30,7 @@ namespace leads_backend.Controllers
         }
 
         [HttpGet("getAcceptedLeads")]
-        public IActionResult GetActiveLeadsGetInvitedLeads()
+        public IActionResult GetActiveLeads()
         {
             return Ok(getAcceptedLeadsService.GetAcceptedLeads());
         }
