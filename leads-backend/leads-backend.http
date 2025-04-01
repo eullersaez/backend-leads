@@ -1,0 +1,6 @@
+@leads_backend_HostAddress = http://localhost:5189
+
+GET {{leads_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
